@@ -19,6 +19,15 @@ public class dayModel {
         MealThree = mealThree;
     }
 
+    public dayModel(String number,String day){
+        this.number = number;
+        this.Day = day;
+        this.mealList = new ArrayList<String>();
+        this.mealOne = "Meal1";
+        this.MealTwo = "Meal2";
+        this.MealThree = "Meal3";
+    }
+
     public String getNumber() {
         return number;
     }
